@@ -1,18 +1,55 @@
 ---
-// import LanguageOptions from "@components/language/LanguageOptions";
+
 ---
 
-<header class="[&>*]:px-12 bg-slate-700 text-white">
-  <div class="py-2 border-b-4 border-b-slate-500 flex justify-between">
-    <p class="text-[10px] font-semibold text-white">
-      Welcome to Emarket!Wrap new offers/Anim sit ea nostrud.
-    </p>
-    <!-- <LanguageOptions client:load /> -->
+<!-- <header class="[&>*]:px-12 bg-[#3B5D50] text-white"> -->
+<header class="px-12 pt-3 bg-[#3B5D50] text-white">
+  <div class="flex gap-x-40">
+    <nav
+      class="inline-flex flex-wrap items-center gap-3 justify-between w-full"
+    >
+      <div class="font-semibold text-2xl">Furni.</div>
+      <ul class="flex flex-wrap gap-12 mt-4">
+        <li
+          class="hover:border-b-[3px] hover:scale-[1.2] transition-all delay-[30] h-[35px] border-[#F9BF29]"
+        >
+          <a href="">Home</a>
+        </li>
+        <li
+          class="hover:border-b-[3px] transition-all delay-[30] h-[35px] border-[#F9BF29]"
+        >
+          <a href="">Shop</a>
+        </li>
+        <li
+          class="hover:border-b-[3px] transition-all delay-[30] h-[35px] border-[#F9BF29]"
+        >
+          <a href="">About Us</a>
+        </li>
+        <li
+          class="hover:border-b-[3px] transition-all delay-[30] h-[35px] border-[#F9BF29]"
+        >
+          <a href="">Services</a>
+        </li>
+        <li
+          class="hover:border-b-[3px] transition-all delay-[30] h-[35px] border-[#F9BF29]"
+        >
+          <a href="">Blog</a>
+        </li>
+        <li
+          class="hover:border-b-[3px] transition-all delay-[30] h-[35px] border-[#F9BF29]"
+        >
+          <a href="">Contact us</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="inline-flex items-center gap-5">
+      <a class="p-2 rounded-full hover:bg-slate-500 transition-all" href=""
+        ><img src="user.svg" class="w-7" alt="" /></a
+      >
+      <a class="p-2 rounded-full hover:bg-slate-500 transition-all" href=""
+        ><img src="cart.svg" alt="" class="w-7" /></a
+      >
+    </div>
   </div>
-  <nav class="py-3">
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-    </ul>
-  </nav>
+  <div class="relative z-20 p-3">qwewe</div>
 </header>
